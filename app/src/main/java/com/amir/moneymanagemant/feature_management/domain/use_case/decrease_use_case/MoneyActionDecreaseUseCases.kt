@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.domain.use_case.decrease_use_case
+package com.amir.moneymanagemant.feature_management.domain.use_case.decrease_use_case
 
 data class MoneyActionDecreaseUseCases(
      val addMoneyActionDecreaseUseCase: AddMoneyActionDecreaseUseCase,

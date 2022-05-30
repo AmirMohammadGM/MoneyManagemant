@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -18,9 +18,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionViewModel
+import com.amir.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionViewModel
 
 @Composable
 fun RadioButtonsIncrease(viewModel: AddMoneyActionViewModel = hiltViewModel()) {

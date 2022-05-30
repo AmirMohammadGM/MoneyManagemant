@@ -1,8 +1,8 @@
-package com.mahdi.moneymanagemant.feature_management.domain.use_case.decrease_use_case
+package com.amir.moneymanagemant.feature_management.domain.use_case.decrease_use_case
 
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.InvalidExceptionDecrease
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
-import com.mahdi.moneymanagemant.feature_management.domain.repository.decrease_repository.MoneyManagementDecreaseRepository
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.InvalidExceptionDecrease
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.domain.repository.decrease_repository.MoneyManagementDecreaseRepository
 import kotlin.jvm.Throws
 
 class AddMoneyActionDecreaseUseCase(

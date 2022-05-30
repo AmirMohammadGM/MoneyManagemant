@@ -1,11 +1,11 @@
-package com.mahdi.moneymanagemant.di
+package com.amir.moneymanagemant.di
 
 import android.app.Application
 import androidx.room.Room
-import com.mahdi.moneymanagemant.feature_management.data.data_resource.money_increase_db.MoneyManagementDataBase
-import com.mahdi.moneymanagemant.feature_management.data.repository.increase_repository.MoneyManagementRepositoryImpl
-import com.mahdi.moneymanagemant.feature_management.domain.repository.increase_repository.MoneyManagementRepository
-import com.mahdi.moneymanagemant.feature_management.domain.use_case.increase_use_case.*
+import com.amir.moneymanagemant.feature_management.data.data_resource.money_increase_db.MoneyManagementDataBase
+import com.amir.moneymanagemant.feature_management.data.repository.increase_repository.MoneyManagementRepositoryImpl
+import com.amir.moneymanagemant.feature_management.domain.repository.increase_repository.MoneyManagementRepository
+import com.amir.moneymanagemant.feature_management.domain.use_case.increase_use_case.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

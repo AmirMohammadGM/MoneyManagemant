@@ -1,6 +1,5 @@
-package com.mahdi.moneymanagemant.ui.theme
+package com.amir.moneymanagemant.ui.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Typography
 import androidx.compose.material.darkColors
@@ -13,7 +12,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.mahdi.moneymanagemant.R
+import com.amir.moneymanagemant.R
 
 
 private val DarkColorPalette = darkColors(

@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.util
+package com.amir.moneymanagemant.feature_management.presentation.util
 
 sealed class Screen(val route: String) {
      object AddMoneyActionDecreaseScreen : Screen("add_money_action_decrease_screen")

@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
@@ -29,7 +29,7 @@ import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
 import java.util.Locale
 
 @Composable

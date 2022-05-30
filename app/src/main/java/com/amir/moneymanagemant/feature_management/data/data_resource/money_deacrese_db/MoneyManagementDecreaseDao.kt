@@ -1,7 +1,7 @@
-package com.mahdi.moneymanagemant.feature_management.data.data_resource.money_deacrese_db
+package com.amir.moneymanagemant.feature_management.data.data_resource.money_deacrese_db
 
 import androidx.room.*
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
 import kotlinx.coroutines.flow.Flow
 
 @Dao

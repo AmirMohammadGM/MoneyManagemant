@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.layout.Row

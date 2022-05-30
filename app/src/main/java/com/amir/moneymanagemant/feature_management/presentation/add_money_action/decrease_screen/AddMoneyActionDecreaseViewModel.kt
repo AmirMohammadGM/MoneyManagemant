@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -6,10 +6,10 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.InvalidExceptionDecrease
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
-import com.mahdi.moneymanagemant.feature_management.domain.use_case.decrease_use_case.MoneyActionDecreaseUseCases
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionState
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.InvalidExceptionDecrease
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.domain.use_case.decrease_use_case.MoneyActionDecreaseUseCases
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

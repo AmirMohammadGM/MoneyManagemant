@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant
+package com.amir.moneymanagemant
 
 import org.junit.Test
 

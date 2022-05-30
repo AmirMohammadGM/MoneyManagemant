@@ -1,13 +1,10 @@
-package com.mahdi.moneymanagemant.feature_management.presentation
+package com.amir.moneymanagemant.feature_management.presentation
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.EnterTransition
-import androidx.compose.animation.core.tween
-import androidx.compose.animation.expandHorizontally
 import androidx.compose.animation.expandVertically
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
@@ -23,20 +20,20 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseScreen
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionScreen
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.RallyTabRow
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.accounts.AccountsBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.accounts.SingleAccountBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.bills.BillsBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.bills.SingleBillsBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.overview.OverviewBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
-import com.mahdi.moneymanagemant.feature_management.presentation.splash_screen.SplashScreen
-import com.mahdi.moneymanagemant.feature_management.presentation.util.Screen
-import com.mahdi.moneymanagemant.ui.theme.RallyTheme
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseScreen
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionScreen
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.RallyTabRow
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.accounts.AccountsBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.accounts.SingleAccountBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.bills.BillsBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.bills.SingleBillsBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.overview.OverviewBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseViewModel
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsViewModel
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
+import com.amir.moneymanagemant.feature_management.presentation.splash_screen.SplashScreen
+import com.amir.moneymanagemant.feature_management.presentation.util.Screen
+import com.amir.moneymanagemant.ui.theme.RallyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

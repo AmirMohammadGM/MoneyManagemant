@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.bills
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component.bills
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
@@ -16,12 +16,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.dp
-import com.mahdi.moneymanagemant.R
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.AccountIndicatorFake
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.BillRowFake
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.StatementBody
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.formatAmount
+import com.amir.moneymanagemant.R
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.AccountIndicatorFake
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.BillRowFake
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.StatementBody
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.formatAmount
 
 @Composable
 fun BillsBody(

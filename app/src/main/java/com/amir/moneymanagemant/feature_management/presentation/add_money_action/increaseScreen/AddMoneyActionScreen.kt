@@ -1,6 +1,6 @@
 @file:Suppress("UNUSED_EXPRESSION")
 
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.*
@@ -19,12 +19,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component.MyContent
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component.RadioButtonsIncrease
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component.SaveButtonIncrease
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component.TextFieldCustom
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.component.MyContent
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.component.RadioButtonsIncrease
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.component.SaveButtonIncrease
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.component.TextFieldCustom
 import kotlinx.coroutines.flow.collectLatest
-import java.text.DecimalFormat
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @ExperimentalComposeUiApi

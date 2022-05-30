@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.component
 
 
 import androidx.compose.foundation.clickable
@@ -14,8 +14,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionViewModel
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionViewModel
 
 @Composable
 fun SaveButtonIncrease(viewModel: AddMoneyActionViewModel = hiltViewModel()) {

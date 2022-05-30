@@ -1,9 +1,8 @@
-package com.mahdi.moneymanagemant.feature_management.data.data_resource.money_increase_db
+package com.amir.moneymanagemant.feature_management.data.data_resource.money_increase_db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
+import com.amir.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
 
 @Database(
      entities = [MoneyManagement::class],

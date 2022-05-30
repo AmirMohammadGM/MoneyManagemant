@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -30,8 +30,8 @@ import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
 import java.text.DecimalFormat
 
 

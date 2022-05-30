@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.unit.dp
-import com.mahdi.moneymanagemant.ui.theme.RallyDialogThemeOverlay
+import com.amir.moneymanagemant.ui.theme.RallyDialogThemeOverlay
 
 @Composable
 fun RallyAlertDialog(

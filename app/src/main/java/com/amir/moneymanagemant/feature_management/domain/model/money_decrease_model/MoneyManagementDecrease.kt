@@ -1,8 +1,8 @@
-package com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model
+package com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.mahdi.moneymanagemant.ui.theme.*
+import com.amir.moneymanagemant.ui.theme.*
 
 @Entity
 data class MoneyManagementDecrease(

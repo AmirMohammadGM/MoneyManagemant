@@ -1,6 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen
-
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen
 
 sealed class AddMoneyActionDecreaseEvent {
      data class TitleDecrease(val text: String) : AddMoneyActionDecreaseEvent()

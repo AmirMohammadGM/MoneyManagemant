@@ -1,6 +1,6 @@
-package com.mahdi.moneymanagemant.feature_management.domain.repository.decrease_repository
+package com.amir.moneymanagemant.feature_management.domain.repository.decrease_repository
 
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
 import kotlinx.coroutines.flow.Flow
 
 interface MoneyManagementDecreaseRepository {

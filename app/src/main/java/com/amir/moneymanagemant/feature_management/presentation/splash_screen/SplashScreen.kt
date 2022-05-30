@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.splash_screen
+package com.amir.moneymanagemant.feature_management.presentation.splash_screen
 
 import android.os.Build.VERSION.SDK_INT
 import androidx.compose.foundation.Image
@@ -20,8 +20,8 @@ import coil.ImageLoader
 import coil.compose.rememberImagePainter
 import coil.decode.GifDecoder
 import coil.decode.ImageDecoderDecoder
-import com.mahdi.moneymanagemant.R
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
+import com.amir.moneymanagemant.R
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.unit.RallyScreen
 import kotlinx.coroutines.delay
 
 @Composable

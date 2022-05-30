@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen
 
 sealed class AddMoneyActionEvent
 {

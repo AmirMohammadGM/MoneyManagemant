@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardDecrease
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardDecrease
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.animateColor
@@ -18,10 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.BillRowFake
-import com.mahdi.moneymanagemant.ui.theme.DarkBlue900
-import com.mahdi.moneymanagemant.ui.theme.Green
+import com.amir.moneymanagemant.feature_management.domain.model.money_decrease_model.MoneyManagementDecrease
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.BillRowFake
+import com.amir.moneymanagemant.ui.theme.DarkBlue900
+import com.amir.moneymanagemant.ui.theme.Green
 import kotlin.math.roundToInt
 
 const val ANIMATION_DURATION = 500

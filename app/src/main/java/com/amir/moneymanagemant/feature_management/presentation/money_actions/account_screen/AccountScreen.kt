@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.accounts
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component.accounts
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
@@ -17,10 +17,10 @@ import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import com.mahdi.moneymanagemant.R
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.*
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.AccountRowFake
+import com.amir.moneymanagemant.R
+import com.amir.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.*
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.AccountRowFake
 
 @Composable
 fun AccountsBody(

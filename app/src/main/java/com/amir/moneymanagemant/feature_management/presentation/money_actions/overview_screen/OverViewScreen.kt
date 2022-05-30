@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.overview
+package com.amir.moneymanagemant.feature_management.presentation.money_actions.component.overview
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -24,16 +24,16 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.mahdi.moneymanagemant.R
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.component.*
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.ActionsRow
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardDecrease.DraggableCardDecrease
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardIncrease.DraggableCard
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.util.Screen
+import com.amir.moneymanagemant.R
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsViewModel
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.component.*
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.ActionsRow
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardDecrease.DraggableCardDecrease
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.overview_screen.component.DraggableCardIncrease.DraggableCard
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseEvent
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.decrease_screen.MoneyActionsDecreaseViewModel
+import com.amir.moneymanagemant.feature_management.presentation.money_actions.increase_screen.MoneyActionsEvent
+import com.amir.moneymanagemant.feature_management.presentation.util.Screen
 import java.text.NumberFormat
 import java.util.Locale
 

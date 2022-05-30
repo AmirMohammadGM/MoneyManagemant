@@ -1,6 +1,6 @@
-package com.mahdi.moneymanagemant.feature_management.domain.repository.increase_repository
+package com.amir.moneymanagemant.feature_management.domain.repository.increase_repository
 
-import com.mahdi.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
+import com.amir.moneymanagemant.feature_management.domain.model.money_increase_model.MoneyManagement
 import kotlinx.coroutines.flow.Flow
 
 interface MoneyManagementRepository {

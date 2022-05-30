@@ -1,4 +1,4 @@
-package com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.component
+package com.amir.moneymanagemant.feature_management.presentation.add_money_action.component
 
 import android.app.DatePickerDialog
 import android.widget.DatePicker
@@ -23,10 +23,8 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseViewModel
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionEvent
-import com.mahdi.moneymanagemant.feature_management.presentation.add_money_action.increaseScreen.AddMoneyActionViewModel
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseEvent
+import com.amir.moneymanagemant.feature_management.presentation.add_money_action.decrease_screen.AddMoneyActionDecreaseViewModel
 import java.util.*
 
 
